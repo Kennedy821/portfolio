@@ -23,13 +23,18 @@ st.set_page_config(page_title="Timeline w/ Logos", layout="wide")
 # this is the code for the header: 
 
 PROFILE_PIC = img_to_data_uri("/Users/tariromashongamhende/Downloads/vb_pitch_photo.png")  
+email = st.secrets['email']
+linkedin_url = st.secrets['linkedin_url']
+github_url = st.secrets['github_url_1']
+github_url_2 = st.secrets['github_url_2']
+medium_url = st.secrets['medium_url']
 
 SOCIALS = [
-    {"icon": "fab fa-linkedin-in", "url": "https://uk.linkedin.com/in/tariro-mashongamhende-9128a167"},
-    {"icon": "fab fa-github",      "url": "https://github.com/Kennedy821"},          # GitHub #1
-    {"icon": "fab fa-github",      "url": "https://github.com/tariroMashCasa?tab=repositories"},     # GitHub #2
-    {"icon": "fab fa-medium",      "url": "https://medium.com/@tk_m"},
-    {"icon": "fa-solid fa-envelope","url": f"mailto:{st.secrets["general"]['email']}"},
+    {"icon": "fab fa-linkedin-in", "url": linkedin_url},
+    {"icon": "fab fa-github",      "url": github_url},          # GitHub #1
+    {"icon": "fab fa-github",      "url": github_url_2},     # GitHub #2
+    {"icon": "fab fa-medium",      "url": medium_url},
+    {"icon": "fa-solid fa-envelope","url": f"mailto:{email}"}, 
 ]
 
 # ----------  CSS  ----------------------------------------------------
