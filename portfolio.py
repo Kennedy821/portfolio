@@ -22,7 +22,7 @@ st.set_page_config(page_title="Timeline w/ Logos", layout="wide")
 
 # this is the code for the header: 
 
-PROFILE_PIC = img_to_data_uri("/Users/tariromashongamhende/Downloads/vb_pitch_photo.png")  
+PROFILE_PIC = img_to_data_uri("vb_pitch_photo.png")  
 email = st.secrets['email']
 linkedin_url = st.secrets['linkedin_url']
 github_url = st.secrets['github_url_1']
@@ -100,7 +100,7 @@ header_html = f"""
 entries = [
     #     {
     #     "date": "2024 –",
-    #     "logo": img_to_data_uri("/Users/tariromashongamhende/Downloads/slug_logo.png"),
+    #     "logo": img_to_data_uri("slug_logo.png"),
     #     "html": """
     #     <p>I started <a href='https://eurekalabs.ai'>Eureka Labs</a>, a new AI-Education company.</p>
 
@@ -119,7 +119,7 @@ entries = [
     # },
     {
         "date": "2024 – 2025",
-        "logo": img_to_data_uri("/Users/tariromashongamhende/Downloads/University_College_London_logo.png"),
+        "logo": img_to_data_uri("University_College_London_logo.png"),
         "html": """<p>
   Completed my MSc in
   <a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/urban-spatial-science-msc" target="_blank" rel="noopener">
@@ -146,7 +146,7 @@ entries = [
     },
     {
         "date": "2016 – 2024",
-        "logo": img_to_data_uri("/Users/tariromashongamhende/Downloads/pwc_and_strategyand_logo.png"),
+        "logo": img_to_data_uri("pwc_and_strategyand_logo.png"),
         "html": """<p>
   Worked as a
   <a href="https://www.strategyand.pwc.com/uk/en.html" target="_blank" rel="noopener">
@@ -161,7 +161,7 @@ entries = [
     },
     {
         "date": "2012 – 2016",
-        "logo": img_to_data_uri("/Users/tariromashongamhende/Downloads/exeter_uni_new_logo.png"),
+        "logo": img_to_data_uri("exeter_uni_new_logo.png"),
         "html": """<p>
   Completed an undergraduate degree in
   <a href="https://www.exeter.ac.uk/study/undergraduate/courses/business/businessman/" target="_blank" rel="noopener">
@@ -250,7 +250,7 @@ col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
 with col1:
     pass
 with col2:
-    st.image(img_to_data_uri("/Users/tariromashongamhende/Downloads/project_infinite_logo.png"))
+    st.image(img_to_data_uri("project_infinite_logo.png"))
 with col3:
     st.markdown("**Project Infinite**")
     st.text("""Project Infinite is an attempt at building a self-perpetuating living sandbox where agents (driven largely by large-language-models) think, remember and act inside a shared fictional world. The population, geography and lore grow or fade on their own, so every visit uncovers new alliances, conflicts and myths that no one scripted. All you need to do is create a high-level brief (or not we can make a random one for you) and press play, and watch the story write itself.""")
@@ -262,7 +262,7 @@ col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
 with col1:
     pass
 with col2:
-    st.image(img_to_data_uri("/Users/tariromashongamhende/Downloads/psil_screengrab.png"))
+    st.image(img_to_data_uri("psil_screengrab.png"))
 with col3:
     st.markdown("**PSIL**")
     st.text("""
@@ -276,7 +276,7 @@ col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
 with col1:
     pass
 with col2:
-    st.image(img_to_data_uri("/Users/tariromashongamhende/Downloads/notebot_detailed_notes_screengrab.png"))
+    st.image(img_to_data_uri("notebot_detailed_notes_screengrab.png"))
 with col3:
     st.markdown("**Notebot**")
     st.markdown("""
@@ -290,7 +290,7 @@ col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
 with col1:
     pass
 with col2:
-    st.image(img_to_data_uri("/Users/tariromashongamhende/Downloads/stp_actual_app_screengrab.png"))
+    st.image(img_to_data_uri("stp_actual_app_screengrab.png"))
 with col3:
     st.markdown("**STP**")
     st.markdown("""
