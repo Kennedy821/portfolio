@@ -265,7 +265,7 @@ with col2:
     st.image(img_to_data_uri("psil_screengrab.png"))
 with col3:
     st.markdown("**PSIL**")
-    st.text("""
+    st.markdown("""
             Started off as a quick way to get better recommendations and quickly turned into a multi-year project. [PSIL (Predict Songs I Like)](https://github.com/Kennedy821/PSIL/tree/main) is a sound based similarity search and recommendation engine using Network Science and Machine Learning. Users can upload songs or type / speak what kind of music their listening to and get some recommendations.
             """)
 with col4:
