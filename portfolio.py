@@ -305,7 +305,7 @@ with col4:
 
 st.markdown("---")
 st.header("Articles & Blogs")
-# st.markdown(" * Here is an article on how to use LLMs to predicate an [election outcome](https://medium.com/@tk_m/save-this-plant-the-future-of-amateur-plant-care-b92549dd71f5/)")
+st.markdown(" * Here is an article on how to use LLMs to predicate an [election outcome](https://tariromashongamhende.bearblog.dev/blog/)")
 st.markdown(" * An in-depth blog on using machine learning, one or two raspberry pi computers and some sensors to have healthier and happier plants using the [STP project](https://medium.com/@tk_m/save-this-plant-the-future-of-amateur-plant-care-b92549dd71f5/)")
 st.markdown(" * An article published in the Undergraduate Exeter Academic Journal on the impact of double taxation told through the story of the [Carlton Hotel](https://www.linkedin.com/pulse/tale-two-taxes-story-carlton-hotels-south-africa-ltd-mashongamhende?trackingId=hhzomStvRuuiZRt5VVCanw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BC%2Fvf4n69TeqHOPzGmlqmMw%3D%3D/) in South Africa back in the 1900s")
 
