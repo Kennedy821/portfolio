@@ -157,7 +157,7 @@ entries = [
   Built a geospatial team and an industry-leading geospatial location-intelligence platform,
   and supported other teams as the UK geospatial SME.
   Collaborated with telecommunications companies and banks to develop their data products.
-  Traveled around the country and experienced some impressive technology and places along the way.
+  Traveled around the country and got to see some impressive technology and places along the way.
 </p>"""
     },
     {
