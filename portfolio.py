@@ -23,7 +23,7 @@ st.set_page_config(page_title="Timeline w/ Logos", layout="wide")
 # this is the code for the header: 
 
 PROFILE_PIC = img_to_data_uri("vb_pitch_photo.png")  
-email = st.secrets['email']
+email = st.secrets['email'] 
 linkedin_url = st.secrets['linkedin_url']
 github_url = st.secrets['github_url_1']
 github_url_2 = st.secrets['github_url_2']
@@ -100,7 +100,7 @@ header_html = f"""
 entries = [
     #     {
     #     "date": "2024 –",
-    #     "logo": img_to_data_uri("slug_logo.png"),
+    #     "logo": img_to_data_uri("/Users/tariromashongamhende/Downloads/slug_logo.png"),
     #     "html": """
     #     <p>I started <a href='https://eurekalabs.ai'>Eureka Labs</a>, a new AI-Education company.</p>
 
@@ -266,7 +266,7 @@ with col2:
 with col3:
     st.markdown("**PSIL**")
     st.text("""
-            Started off as a quick way to get better recommendations and quickly turned into a multi-year project. PSIL (Predict Songs I Like) is a sound based similarity search and recommendation engine using Network Science and Machine Learning. Users can upload songs or type / speak what kind of music their listening to and get some recommendations.
+            Started off as a quick way to get better recommendations and quickly turned into a multi-year project. [PSIL (Predict Songs I Like)](https://github.com/Kennedy821/PSIL/tree/main) is a sound based similarity search and recommendation engine using Network Science and Machine Learning. Users can upload songs or type / speak what kind of music their listening to and get some recommendations.
             """)
 with col4:
     pass
