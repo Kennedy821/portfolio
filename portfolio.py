@@ -109,7 +109,7 @@ entries = [
   </a>,
   formalising lots of the things I’d picked up over the years and learning some cool stuff.
   My thesis focused on the relations between image &amp; natural language in the context of land-cover and land-use dynamics, using deep-learning transformer models and was supervised by <a href="https://profiles.ucl.ac.uk/98496-claire-dooley" target="_blank" rel="noopener">Dr Claire Dooley </a>.
-  Took some greate modules with <a href="https://en.wikipedia.org/wiki/Hannah_Fry" target="_blank" rel="noopener">Professor Hannah Fry</a>, <a href="https://profiles.ucl.ac.uk/11266-michael-batty" target="_blank" rel="noopener">Professor Michael Batty</a> and  <a href="https://profiles.ucl.ac.uk/31566-elsa-arcaute" target="_blank" rel="noopener">Professor Elsa Arcaute </a>.
+  Took some great modules with <a href="https://en.wikipedia.org/wiki/Hannah_Fry" target="_blank" rel="noopener">Professor Hannah Fry</a>, <a href="https://profiles.ucl.ac.uk/11266-michael-batty" target="_blank" rel="noopener">Professor Michael Batty</a> and  <a href="https://profiles.ucl.ac.uk/31566-elsa-arcaute" target="_blank" rel="noopener">Professor Elsa Arcaute </a>.
   I also helped out at the leading Urban Planning and Management conference
   (<a href="https://cupum.co/" target="_blank" rel="noopener">CUPUM</a>) held in London at UCL East.
   Selected for UCL’s
