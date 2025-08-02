@@ -268,6 +268,22 @@ with col3:
 with col4:
     pass
 
+
+# project 4 - Election Slugbot
+col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
+with col1:
+    pass
+with col2:
+    st.image(img_to_data_uri("election_slugbot_screengrab.png"))
+with col3:
+    st.markdown("**Election Slugbot**")
+    st.markdown("""
+                [Election Slugbot](https://projectelectionslugbot.streamlit.app/) started as a playful experiment in predicting the UK’s 2024 general election using modern machine learning techniques and location-based data, rather than traditional polls. Polls aren’t inherently bad—but relying solely on them feels a bit dated, especially when we have powerful language models and abundant data at our fingertips. So, could we predict election results without polling at all?
+
+                Turns out that you can (in the most part). Using past voting patterns and some quick-and-dirty ML models, Election Slugbot generated impressive  headline seat predictions, even matching the official exit poll pretty closely in one case. It wasn’t perfect, particularly when drilling down to seat-level details, nonetheless, it demonstrates that even a straightforward ML approach can rival traditional polling. A flawed yet promising glimpse into how elections might be forecasted differently in the future.            """)
+with col4:
+    pass
+
 # project 4 - STP
 col1,col2,col3, col4 = st.columns([0.5,2,9,0.5])
 with col1:
