@@ -220,9 +220,10 @@ css = dedent("""
 
 
 # this is an alternative version with images included for each section
+counter = 0
 html_bits = ["<div class='tl-wrapper'>"]
 for item in entries:
-    if item["images"] is not None:
+    if counter == 0:
         html_bits.append(f"""
         <div class='tl-item'>
             <div class='tl-date'>{item["date"]}</div>
@@ -242,6 +243,7 @@ for item in entries:
             <div class='tl-content'>{item["html"]}</div>            
         </div>
         """)
+    counter += 1
 html_bits.append("</div>")
 
 # --------------------------------------------------------------------
