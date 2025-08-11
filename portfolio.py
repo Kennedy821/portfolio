@@ -128,7 +128,7 @@ entries = [
 </p>
 
 <p>
-    <img src="{img_to_data_uri("UCL_images.png")}" alt="UCL Images">
+    <img src={"UCL_images.png"} alt="UCL Images">
 </p>"""
 
         # "images": img_to_data_uri("UCL_images.png")
