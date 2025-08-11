@@ -125,7 +125,8 @@ entries = [
   <a href="https://mistral.ai/" target="_blank" rel="noopener">Mistral</a>,
   and
   <a href="https://elevenlabs.io/" target="_blank" rel="noopener">ElevenLabs</a>.
-</p>"""
+</p>""",
+        "images": img_to_data_uri("UCL_images.png")
     },
     {
         "date": "2016 – 2024",
@@ -203,16 +204,44 @@ css = dedent("""
 # --------------------------------------------------------------------
 # 3)  HTML assembly
 # --------------------------------------------------------------------
+# html_bits = ["<div class='tl-wrapper'>"]
+# for item in entries:
+#     html_bits.append(f"""
+#       <div class='tl-item'>
+#         <div class='tl-date'>{item["date"]}</div>
+#         <div class='tl-dot'></div>
+#         <div class='tl-logo'><img src="{item["logo"]}" alt=""></div>
+#         <div class='tl-content'>{item["html"]}</div>
+        
+#       </div>
+#     """)
+
+# html_bits.append("</div>")
+
+
+# this is an alternative version with images included for each section
 html_bits = ["<div class='tl-wrapper'>"]
 for item in entries:
-    html_bits.append(f"""
-      <div class='tl-item'>
-        <div class='tl-date'>{item["date"]}</div>
-        <div class='tl-dot'></div>
-        <div class='tl-logo'><img src="{item["logo"]}" alt=""></div>
-        <div class='tl-content'>{item["html"]}</div>
-      </div>
-    """)
+    if item["images"] is not None:
+        html_bits.append(f"""
+        <div class='tl-item'>
+            <div class='tl-date'>{item["date"]}</div>
+            <div class='tl-dot'></div>
+            <div class='tl-logo'><img src="{item["logo"]}" alt=""></div>
+            <div class='tl-content'>{item["html"]}</div>
+            <div class='tl-content'>{item["images"]}</div>
+            
+        </div>
+        """)
+    else:
+        html_bits.append(f"""
+        <div class='tl-item'>
+            <div class='tl-date'>{item["date"]}</div>
+            <div class='tl-dot'></div>
+            <div class='tl-logo'><img src="{item["logo"]}" alt=""></div>
+            <div class='tl-content'>{item["html"]}</div>            
+        </div>
+        """)
 html_bits.append("</div>")
 
 # --------------------------------------------------------------------
