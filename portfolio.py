@@ -128,7 +128,7 @@ entries = [
 </p>
 
 <p>
-    <img src="UCL_images.png" alt="UCL Images">
+    <img src="https://github.com/Kennedy821/portfolio/blob/9db5b145e614d67a220ef19a5f804a8cb3d7e220/UCL_images.png" alt="UCL Images">
 </p>"""
 
         # "images": img_to_data_uri("UCL_images.png")
