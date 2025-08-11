@@ -125,8 +125,13 @@ entries = [
   <a href="https://mistral.ai/" target="_blank" rel="noopener">Mistral</a>,
   and
   <a href="https://elevenlabs.io/" target="_blank" rel="noopener">ElevenLabs</a>.
-</p>""",
-        "images": img_to_data_uri("UCL_images.png")
+</p>
+
+<p>
+    <img src="{img_to_data_uri("UCL_images.png")}" alt="UCL Images">
+</p>"""
+
+        # "images": img_to_data_uri("UCL_images.png")
     },
     {
         "date": "2016 – 2024",
@@ -230,7 +235,6 @@ for item in entries:
             <div class='tl-dot'></div>
             <div class='tl-logo'><img src="{item["logo"]}" alt=""></div>
             <div class='tl-content'>{item["html"]}</div>
-            <div class='tl-content'>{item["images"]}</div>
             
         </div>
         """)
