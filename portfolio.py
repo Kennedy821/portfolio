@@ -76,7 +76,7 @@ header_html = f"""
    <img src="{PROFILE_PIC}" class="hero-img" alt="Me">
    <div class="hero-text">
        <h1>Tariro Mashongamhende</h1>
-       <p>I use data science and spatial analysis to build cool things for people to use 🌎⚡️🤖</p>
+       <p>I use data science and spatial analysis to build cool things for people to use</p>
        <div class="hero-icons">
            {icons_html}
        </div>
